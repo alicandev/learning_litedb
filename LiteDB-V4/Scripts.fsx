@@ -12,7 +12,7 @@ type Person = { Id : int; Name : string; Age : int; Gender : Gender }
 
 // Open database (or create if doesn't exist)
 let mapper = FSharpBsonMapper()
-let db = new LiteDatabase("demo.db", mapper)
+let db = new LiteDatabase("FileName=Script/demo.db;Password=$3cur3P455w0rd", mapper)
 
 // Get a collection (or create if doesn't exist)
 let cit = db.GetCollection<Person>("CIT")
