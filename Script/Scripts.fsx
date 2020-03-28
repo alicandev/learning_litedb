@@ -55,16 +55,12 @@ cit.FindAll() |> List.ofSeq
 cit.Find (fun x -> x.Name.ToUpper().Contains("A")) |> List.ofSeq
 cit.Find (fun x -> 25 < x.Age && x.Age < 40) |> List.ofSeq
 cit.Find (fun x -> x.Id >= 3 && x.Age % 3 = 0) |> List.ofSeq
+cit.Find (fun a -> a.Gender = Male) |> List.ofSeq
 
 // Bulk Update
 cit.Find (fun x -> x.Age > 30)
 |> Seq.map (fun a -> { a with Name = a.Name.ToUpper() })
 |> Seq.sortBy (fun a -> a.Name)
 |> Seq.map cit.Update
+
 cit.FindAll() |> List.ofSeq
-
-
-
-
-// Query based on discriminated union
-let results2 = cit.Find (fun a -> a.Gender = Male) |> List.ofSeq
