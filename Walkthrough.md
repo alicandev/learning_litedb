@@ -40,10 +40,6 @@ Zero configuration means that all we need to start using LiteDB to store data is
 
 
 
-
-
-
-
 # LiteDB.FSharp
 
 ### What is LiteDB.FSharp?
@@ -52,20 +48,11 @@ F# Support for LiteDB in .NET Core and full .NET Framework.
 
 - LiteDB.FSharp provides serialization utilities making it possible for LiteDB to understand F# types such as **records**, **unions**, **maps** etc. with support for **type-safe query expression** through F# quotations.
 
-### Setup
-
-
-
-
-
-### Usage
+### Initialization
 
 LiteDB.FSharp comes with a custom `BsonMapper` called `FSharpBsonMapper` that you would pass to a `LiteDatabase` instance during initialization:
 
-```
-open LiteDB
-open LiteDB.FSharp
-
+```fsharp
 let mapper = FSharpBsonMapper()
 use db = new LiteDatabase("simple.db", mapper)
 ```
@@ -75,12 +62,11 @@ LiteDB.FSharp is made mainly to work with records as representations of the pers
 ```fsharp
 type Genre = Rock | Pop | Metal
 
-type Album = {
-    Id: int
-    Name: string
-    DateReleased: DateTime
-    Genre: Genre
-}
+type Album = 
+	{ Id: int
+      Name: string
+      DateReleased: DateTime
+      Genre: Genre }
 ```
 
 Get a typed collection from the database:
@@ -92,6 +78,37 @@ let albums = db.GetCollection<Album>("albums")
 
 
 
+
+# LiteDB on SAFE
+
+To set up LiteDB and LiteDB.FSharp on a project...
+
+1. Add a reference to `LiteDB` and `LiteDB.FSharp` like so:
+
+   ```
+   nuget LiteDB ~> 4
+   nuget LiteDB.FSharp
+   ```
+
+2. You will also need references in project solution file to be able to access the LiteDB and the LiteDB.FSharp module.
+
+   ```xml
+   <PackageReference Include="LiteDB" Version="4.*" />
+   <PackageReference Include="LiteDB.FSharp" />
+   ```
+
+> `LiteDB.FSharp` library currently has no support for `LiteDB V5`
+
+3. Run `paket install` and `dotnet restore` to finish setting up references.
+
+4. Navigate to an F# source file inside the project that we have just added the references to and open the `LiteDB` and the `LiteDB.FSharp` namespaces.
+
+   ```fsharp
+   open LiteDB
+   open LiteDB.FSharp
+   ```
+
+> We can now start working with LiteDB! Yep. It's that easy. Let's dig in.
 
 
 

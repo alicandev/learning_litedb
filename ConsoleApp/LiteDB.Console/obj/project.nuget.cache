@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "dgSpecHash": "3i1Ow+19sRwTviQ0a9fAUfIw5BPxLCvWIbvkyUA7VMnM/pEb4ym561dZvZgGu4AbBNO5KCYnIMWeq0wvApotzQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\demir\\Dev\\CIT-Brownbag-LiteDB\\ConsoleApp\\LiteDB.Console\\LiteDB.Console.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\demir\\.nuget\\packages\\fsharp.core\\4.7.0\\fsharp.core.4.7.0.nupkg.sha512",
+    "C:\\Users\\demir\\.nuget\\packages\\litedb\\4.1.4\\litedb.4.1.4.nupkg.sha512",
+    "C:\\Users\\demir\\.nuget\\packages\\litedb.fsharp\\2.14.0\\litedb.fsharp.2.14.0.nupkg.sha512",
+    "C:\\Users\\demir\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\demir\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\demir\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
+    "C:\\Users\\demir\\.nuget\\packages\\system.io\\4.3.0\\system.io.4.3.0.nupkg.sha512",
+    "C:\\Users\\demir\\.nuget\\packages\\system.reflection\\4.3.0\\system.reflection.4.3.0.nupkg.sha512",
+    "C:\\Users\\demir\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.3.0\\system.reflection.emit.ilgeneration.4.3.0.nupkg.sha512",
+    "C:\\Users\\demir\\.nuget\\packages\\system.reflection.emit.lightweight\\4.3.0\\system.reflection.emit.lightweight.4.3.0.nupkg.sha512",
+    "C:\\Users\\demir\\.nuget\\packages\\system.reflection.primitives\\4.3.0\\system.reflection.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\demir\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\demir\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
+    "C:\\Users\\demir\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
+    "C:\\Users\\demir\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\demir\\.nuget\\packages\\typeshape\\7.1.0\\typeshape.7.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
