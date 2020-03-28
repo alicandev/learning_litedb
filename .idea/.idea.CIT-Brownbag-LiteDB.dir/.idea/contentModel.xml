@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\demir\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\demir\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_.19.00" t="ExcludeRecursive" />
+    <e p="C:\Users\demir\Dev\CIT-Brownbag-LiteDB" t="IncludeFlat">
+      <e p="SAFE-End\node_modules\@babel\core" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\@babel\plugin-transform-runtime" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\@babel\polyfill" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\@babel\preset-env" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\@babel\runtime" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\@fortawesome\fontawesome-free" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\@types" t="IncludeRecursive">
+        <e p="events" t="IncludeRecursive" />
+        <e p="minimatch" t="IncludeRecursive" />
+        <e p="node" t="IncludeRecursive" />
+      </e>
+      <e p="SAFE-End\node_modules\babel-loader" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\bulma" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\commander" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\copy-webpack-plugin" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\core-js" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\css-loader" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\fable-compiler" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\fable-loader" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\file-loader" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\html-webpack-plugin" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\mini-css-extract-plugin" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\open-sans-fonts" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\react" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\react-dom" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\remotedev" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\resolve-url-loader" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\sass" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\sass-loader" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\source-map" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\style-loader" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\terser" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\webpack" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\webpack-cli" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\webpack-dev-server" t="IncludeRecursive" />
+      <e p="SAFE-End\node_modules\whatwg-fetch" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\@babel\core" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\@babel\plugin-transform-runtime" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\@babel\polyfill" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\@babel\preset-env" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\@babel\runtime" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\@fortawesome\fontawesome-free" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\@types" t="IncludeRecursive">
+        <e p="events" t="IncludeRecursive" />
+        <e p="minimatch" t="IncludeRecursive" />
+        <e p="node" t="IncludeRecursive" />
+      </e>
+      <e p="SAFE-Start\node_modules\babel-loader" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\bulma" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\commander" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\copy-webpack-plugin" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\core-js" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\css-loader" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\fable-compiler" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\fable-loader" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\file-loader" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\html-webpack-plugin" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\mini-css-extract-plugin" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\open-sans-fonts" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\react" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\react-dom" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\remotedev" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\resolve-url-loader" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\sass" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\sass-loader" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\source-map" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\style-loader" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\terser" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\webpack" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\webpack-cli" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\webpack-dev-server" t="IncludeRecursive" />
+      <e p="SAFE-Start\node_modules\whatwg-fetch" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>
